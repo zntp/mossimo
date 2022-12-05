@@ -1,0 +1,457 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "f960f4fc-361f-4080-ae56-1a6cc0e848d0": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "{{ product.metafields.custom.size_chart.value }}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Cash on delivery available"
+          }
+        },
+        "fd08de0f-1b24-46c2-9c22-2c4af8d8eb5e": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Packed within 24 hours"
+          }
+        },
+        "c52f93ba-dc99-435c-b98b-3bd67a003401": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Worldwide Shipping"
+          }
+        },
+        "sales_point2": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "15 Days Return"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "leaf",
+            "text": "Carbon neutral"
+          }
+        },
+        "sales_point4": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Secure payments"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "7dd2a2cc-96f5-4aec-aa49-a5c74c7778ed": {
+          "type": "shopify:\/\/apps\/advanced-wishlist\/blocks\/wishlist-btn\/330d9272-08ea-4193-b3e0-475a69fa65fa",
+          "settings": {
+            "theme_color": "#0f0f0f",
+            "button_style": "style_2",
+            "button_border": 0,
+            "button_font_size": 16,
+            "button_font_weight": 500,
+            "button_border_radius": 0,
+            "button_vertical_space": 16,
+            "button_horizontal_space": 0,
+            "button_text_color": "#ffffff",
+            "button_background": "#000000",
+            "border_color": "#333333",
+            "hover_button_text_color": "#ffffff",
+            "hover_button_background_color": "#5c6ac4",
+            "hover_button_border_color": "#5c6ac4"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "fa119e30-c702-40ed-a18c-60015909af50": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<script async src='https:\/\/snapppt.com\/widgets\/ppg\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24' class='snapppt-widget'>. \n   <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "f960f4fc-361f-4080-ae56-1a6cc0e848d0",
+        "variant_picker",
+        "price",
+        "sales_point",
+        "fd08de0f-1b24-46c2-9c22-2c4af8d8eb5e",
+        "c52f93ba-dc99-435c-b98b-3bd67a003401",
+        "sales_point2",
+        "sales_point3",
+        "sales_point4",
+        "inventory_status",
+        "7dd2a2cc-96f5-4aec-aa49-a5c74c7778ed",
+        "buy_buttons",
+        "fa119e30-c702-40ed-a18c-60015909af50"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "natural",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "",
+            "page": "shipping-info"
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab",
+        "contact"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "1658991901c91e7433": {
+      "type": "apps",
+      "blocks": {
+        "3b783abf-c451-4f17-9832-91383bbc8ca5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "53d03aa6-b30a-4ff9-a447-a999f6659b8b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "3b783abf-c451-4f17-9832-91383bbc8ca5",
+        "53d03aa6-b30a-4ff9-a447-a999f6659b8b"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1657119614c1048e39": {
+      "type": "advanced-content",
+      "blocks": {
+        "16571196149047062f-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"snpt-wdgt--ppg\">\n\n<h3>Show your style with @wearmossimo<\/h3>\n\n\n<script async src=\"https:\/\/snapppt.com\/widgets\/ppg\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24\" class=\"snapppt-widget\" importance=\"high\"><\/script>\n<\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16571196149047062f-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1655824071d260446f": {
+      "type": "advanced-content",
+      "disabled": true,
+      "blocks": {
+        "16558240717d15e355-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2> Shop the look <\/h2>\n<!-- Sauce Shop The Look embed -->\n<script async=\"\" src=\"https:\/\/snapppt.com\/widgets\/picture-card\/663a9058-d11f-f0b5-13a2-f83133b5fa3e?w=full\" class=\"snapppt-widget\"><\/script>\n<!-- End - Sauce Shop The Look embed -->\n\n<style>\n.snapppt-widget {align-items: center;}\n<\/style>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16558240717d15e355-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1658746424d304bdbc": {
+      "type": "advanced-content",
+      "blocks": {
+        "165874642405e86329-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if product.metafields.custom.shop_the_look_code != blank %}\n{{product.metafields.custom.shop_the_look_code}}\n{% else %}\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "165874642405e86329-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Goes Great With"
+      }
+    },
+    "1657162269bfa119c4": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1657162269c47be9a6-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/9-9-70-off-adult-fall-21-tees-denim-sept-9-12",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner_promo_sevenseven_dc.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_mob_sevenseven_bc.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1657162269c47be9a6-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "165716241982621cf1": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "11dc5b88-5b2e-40b3-a2ae-808d055ca819": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "11dc5b88-5b2e-40b3-a2ae-808d055ca819"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "16571627986ee8bb09": {
+      "type": "advanced-content",
+      "disabled": true,
+      "blocks": {
+        "16571627986275021b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>As Seen On Gallery<\/h2>\n<script async src='https:\/\/snapppt.com\/widgets\/widget_loader\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24\/sauce_as_seen_on.js' class='snapppt-widget'><\/script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16571627986275021b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1658908530a55e8d64": {
+      "type": "slideshow-image",
+      "disabled": true,
+      "blocks": {
+        "165890853021115d9d-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/payday-flash-sale",
+            "image": "shopify:\/\/shop_images\/web_promob_flashsale_ab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "165890853021115d9d-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16593327592f8671a2": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "1659332759ce4f76ce-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/mossimo-sale",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/101_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 440,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1659332759ce4f76ce-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/bottoms-collection-promo",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/102_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 440,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1659332759ce4f76ce-0",
+        "1659332759ce4f76ce-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 3,
+        "space_above": false,
+        "space_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "1658991901c91e7433",
+    "1657119614c1048e39",
+    "1655824071d260446f",
+    "1658746424d304bdbc",
+    "more-products-collection",
+    "recommendations",
+    "1657162269bfa119c4",
+    "165716241982621cf1",
+    "more-products-vendor",
+    "recently-viewed",
+    "collection-return",
+    "16571627986ee8bb09",
+    "1658908530a55e8d64",
+    "16593327592f8671a2"
+  ]
+}

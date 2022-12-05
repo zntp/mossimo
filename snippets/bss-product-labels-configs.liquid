@@ -1,0 +1,34 @@
+{{ 'bss-file-configdata.js' | asset_url | script_tag }}<script>
+              if (typeof BSS_PL == 'undefined') {
+                  var BSS_PL = {};
+              }
+              
+              var bssPlApiServer = "https://product-labels-pro.bsscommerce.com";
+              BSS_PL.customerTags = {% if customer %}'{%for tag in customer.tags%}{{ tag }},{% endfor %}'{% else %}'null'{% endif %};
+              BSS_PL.configData = configDatas;
+              BSS_PL.storeId = 1541;
+              BSS_PL.currentPlan = "five_usd";
+              BSS_PL.storeIdCustomOld = "10678";
+              BSS_PL.storeIdOldWIthPriority = "12200";
+              BSS_PL.apiServerProduction = "https://product-labels-pro.bsscommerce.com";
+              
+              </script>
+          <style>
+.homepage-slideshow .slick-slide .bss_pl_img {
+    visibility: hidden !important;
+}
+</style><script>function fixBugForStores($, BSS_PL, parent, page, htmlLabel) { let appended = false; if ($(parent).hasClass("grid-product__content")) {
+    let trueParent = $(parent).find(".grid-product__image-mask");
+    if (trueParent.length) {
+        trueParent.prepend(htmlLabel)
+        appended = true
+    }
+}
+// fix for mossimo by hoaduong
+if (page == 'products' && $(parent).hasClass('cbb-also-bought-product')) {
+    let tmp = $(parent).find('.cbb-also-bought-product-image-link')
+    if (tmp.length) {
+        tmp.prepend(htmlLabel)
+        appended = true
+    }
+} return appended;}</script>

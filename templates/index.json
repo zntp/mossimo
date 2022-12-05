@@ -1,0 +1,1052 @@
+{
+  "sections": {
+    "16558073821060c996": {
+      "type": "slideshow",
+      "blocks": {
+        "369f239f-f133-440c-b4de-4fe6d3991950": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/web_banner_eos_blackcyber_ab.png",
+            "image_mobile": "shopify:\/\/shop_images\/web_banner_eos_blackcyber_mob_ab.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1655807382411abdd0-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/djs-picks",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/web_banner_happyvibe_djblue_aa_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/web_banner_happyvibe_djblue_mob_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "89feddc5-4720-4186-95f8-a44182a46828": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/new-arrivals-1",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/web_banner_eos_lifestyle_aa_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/web_banner_eos_lifestyle_mob_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "9e0fdc83-6be2-4cb4-afba-3f5f81d8b982": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/sesame-street",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner_sesame_banner_temps_002_1_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_sesame_teaser_dump_mob_ab_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "369f239f-f133-440c-b4de-4fe6d3991950",
+        "1655807382411abdd0-0",
+        "89feddc5-4720-4186-95f8-a44182a46828",
+        "9e0fdc83-6be2-4cb4-afba-3f5f81d8b982"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1658814643b967888a": {
+      "type": "slideshow-image",
+      "disabled": true,
+      "blocks": {
+        "16588146433e4d440a-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/buy-2-for-p690",
+            "image": "shopify:\/\/shop_images\/web_strips_eos_bundle_aa_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/PROMO_STRIPS_-_MOBILE_1.png"
+          }
+        },
+        "6f993b82-3cc6-40ed-9cab-732bc89905c7": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/adult-fall-22",
+            "image": "shopify:\/\/shop_images\/PROMO_STRIPS_-_MOBILE.png"
+          }
+        }
+      },
+      "block_order": [
+        "16588146433e4d440a-0",
+        "6f993b82-3cc6-40ed-9cab-732bc89905c7"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1659333155e5b903b9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Any 2 for 690, Any 3 for 990",
+        "home_featured_products": "buy-2-for-p690",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16631527500e40622a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "AS LOW AS P295",
+        "home_featured_products": "adult-fall-22",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16578729178d9f00e1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals-1",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1657871804d862c168": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "1657871804fb2137ff-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/summer-22",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web_grids_eos_bundle_aa_1_f092d1b5-d0d3-495d-8345-0830ed78bf22.png",
+            "video_url": "",
+            "width": "50",
+            "height": 520,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1657871804fb2137ff-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/flash-sale",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web_grids_eos_50_off_aa.png",
+            "video_url": "",
+            "width": "50",
+            "height": 540,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1657871804fb2137ff-1",
+        "1657871804fb2137ff-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 7,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1657874518c0eecbcb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Fashion Picks",
+        "home_featured_products": "adult-fashion-21-22",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1658312062c4d23d8f": {
+      "type": "slideshow",
+      "blocks": {
+        "165831206285abea30-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/djs-picks",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/web_grid_djcollection_aa.png",
+            "image_mobile": "shopify:\/\/shop_images\/web_subbanner_danielcollection_mob_3_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165831206285abea30-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1658892013e4c812a5": {
+      "type": "slideshow",
+      "blocks": {
+        "165889201392506236-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/sesame-street",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner_sesame_banner_temps_002_1_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_sesame_teaser_dump_mob_ab_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165889201392506236-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "165952132434ae81a2": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "kids-apparel",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16580221580cb094dd": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Flash Sale",
+        "home_featured_products": "payday-flash-sale",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1659673519ba450976": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "16596735190f7aa4b9-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/tees-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web_promogrids_100622_001_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "16596735190f7aa4b9-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/bottoms-collection-promo",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web_promogrids_100622_002_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "82d94939-c53e-46b7-a3d6-c1628d03c9d2": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/adult-fashion-21-22",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web_promogrids_100622_003_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16596735190f7aa4b9-0",
+        "16596735190f7aa4b9-1",
+        "82d94939-c53e-46b7-a3d6-c1628d03c9d2"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 4,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "165787236252b315e1": {
+      "type": "promo-grid",
+      "blocks": {
+        "16578723629de5719e-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/all-mens-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-03_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 440,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "16578723629de5719e-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/all-womens-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-07_b12e3339-fe67-44f3-aff9-ff5b4f87ce90.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 440,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16578723629de5719e-0",
+        "16578723629de5719e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promo-grid-2-0": {
+          "type": "banner",
+          "settings": {
+            "heading": "Price starts at P 380",
+            "text": "on new arrivals",
+            "link": "shopify:\/\/collections\/new-arrivals-1",
+            "label": "Shop now",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "promo-grid-2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "165831448827cc4c7e": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1658314488f4c9a900-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/online-exclusives",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-08_bb6cc24f-b8af-4a9a-abfa-8ef09688402f.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-08_bb6cc24f-b8af-4a9a-abfa-8ef09688402f.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1658314488f4c9a900-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1657874001d88ce22e": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "71927c16-524a-4f00-8803-1403eae67fcc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-09_e0c1289b-8467-45d0-a5f0-17565a86bd03.jpg",
+            "link": "",
+            "width": "100"
+          }
+        },
+        "1657874001fa6c94c4-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/tops-bodysuits",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-10_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1657874001fa6c94c4-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/dresses-jumpsuits",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-11_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "09434716-0758-494f-b94f-6385d40ee01b": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/womens-jeans-and-bottoms",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-12_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "71927c16-524a-4f00-8803-1403eae67fcc",
+        "1657874001fa6c94c4-0",
+        "1657874001fa6c94c4-1",
+        "09434716-0758-494f-b94f-6385d40ee01b"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 1,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "165787465334ea7f87": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "be15a443-d32a-4398-bda8-f3b5f859e535": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-13_1.jpg",
+            "link": "",
+            "width": "100"
+          }
+        },
+        "1657874653f0de45f5-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/polo-shirts",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-14_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1657874653f0de45f5-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "shopify:\/\/collections\/mens-jacket",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-15_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "97edee3a-69df-4bfa-8731-984cadf3ca19": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/mens-jeans-and-bottoms",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-16_1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "be15a443-d32a-4398-bda8-f3b5f859e535",
+        "1657874653f0de45f5-0",
+        "1657874653f0de45f5-1",
+        "97edee3a-69df-4bfa-8731-984cadf3ca19"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 1,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1657875382aad8e418": {
+      "type": "promo-grid",
+      "blocks": {
+        "16578753828bb0a790-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/girls-apparel-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-18_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "16578753828bb0a790-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/boys-apparel-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-17_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16578753828bb0a790-0",
+        "16578753828bb0a790-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 1,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1657875579b3dd6a2a": {
+      "type": "promo-grid",
+      "blocks": {
+        "5257e6e3-c6cf-43e4-8a04-d5f3058e9a80": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-19.jpg",
+            "link": "",
+            "width": "100"
+          }
+        },
+        "165787557981d3ae14-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/womens-denim-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-20_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "165787557981d3ae14-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/mens-denim-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-21_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "f3408f1b-7652-42ab-a5a7-fe945e6ef2c0": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/accessories-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/accessories-gif-web-banner.gif",
+            "video_url": "",
+            "width": "100",
+            "height": 240,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "499e7ae9-69a8-4e9a-9236-f45f891625ba": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/last-few-pieces",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/WEBSITE-REVAMP-LAYOUT-23_1.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 240,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "5257e6e3-c6cf-43e4-8a04-d5f3058e9a80",
+        "165787557981d3ae14-0",
+        "165787557981d3ae14-1",
+        "f3408f1b-7652-42ab-a5a7-fe945e6ef2c0",
+        "499e7ae9-69a8-4e9a-9236-f45f891625ba"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 1,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-mens-collection",
+            "title": ""
+          }
+        },
+        "featured-collections-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-jeans-and-bottoms",
+            "title": ""
+          }
+        },
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-womens-collection",
+            "title": ""
+          }
+        },
+        "featured-collections-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-jeans-and-bottoms",
+            "title": ""
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "boys-apparel-1",
+            "title": ""
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "girls-apparel-1",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-1",
+        "featured-collections-4",
+        "featured-collections-0",
+        "featured-collections-5",
+        "featured-collections-2",
+        "featured-collections-3"
+      ],
+      "settings": {
+        "title": "POPULAR CATEGORIES",
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SHOP WOMEN",
+        "home_featured_products": "women-tshirt",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collection2": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SHOP MEN",
+        "home_featured_products": "men-tshirts",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16558110598d6aab86": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "1655811059340abf00-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "MEN'S COLLECTION",
+            "cta_text1": "SHOP NOW",
+            "cta_link1": "shopify:\/\/collections\/all-mens-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1655811059340abf00-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "WOMEN'S COLLECTION",
+            "cta_text1": "SHOP NOW",
+            "cta_link1": "shopify:\/\/collections\/all-womens-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2_f1b28f8c-5448-4740-93cf-beb24e239435.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "4fca3cc1-0b3f-4071-92e9-08268f293377": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "KIDS COLLECTION",
+            "cta_text1": "SHOP NOW",
+            "cta_link1": "shopify:\/\/collections\/kids-apparel",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/3_61a59072-1641-4b5a-8b94-bff541857909.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1655811059340abf00-0",
+        "1655811059340abf00-1",
+        "4fca3cc1-0b3f-4071-92e9-08268f293377"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
+    "165715522265733391": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SHOP KIDS",
+        "home_featured_products": "kids-apparel",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "165581432391e99b72": {
+      "type": "advanced-content",
+      "blocks": {
+        "1655814323eb230294-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"heading-instagram\"> as seen on @wearmossimo <\/h2>\n<div class='snpt-wdgt--liveig'>\n        <script async src='https:\/\/snapppt.com\/widgets\/liveig\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24' class='snapppt-widget'><\/script>\n      <\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1655814323eb230294-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "16558073821060c996",
+    "1658814643b967888a",
+    "1659333155e5b903b9",
+    "16631527500e40622a",
+    "16578729178d9f00e1",
+    "1657871804d862c168",
+    "1657874518c0eecbcb",
+    "1658312062c4d23d8f",
+    "1658892013e4c812a5",
+    "165952132434ae81a2",
+    "16580221580cb094dd",
+    "1659673519ba450976",
+    "165787236252b315e1",
+    "promo-grid2",
+    "165831448827cc4c7e",
+    "1657874001d88ce22e",
+    "165787465334ea7f87",
+    "1657875382aad8e418",
+    "1657875579b3dd6a2a",
+    "featured-collections",
+    "featured-collection",
+    "featured-collection2",
+    "16558110598d6aab86",
+    "165715522265733391",
+    "165581432391e99b72"
+  ]
+}

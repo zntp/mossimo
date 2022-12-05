@@ -1,0 +1,166 @@
+<div class="{{ section.settings.css_class }}">
+  <div class="page-width">
+    
+    <div class="whole-content">
+      	<div class="image-wrapper" style="background-image: url({{section.settings.banner | img_url: '1024x1024'}}) ">
+          <a href="{{section.settings.textlink}}">
+          	View All
+          	
+          </a>
+        </div>
+
+      	<div class="prod-wrapper">
+          <div class="twowrap firsttt">
+              <div class="prodd product-1">
+                <a href="{{section.settings.product-1.url}}"><img src="{{section.settings.product-1.featured_image | img_url: 'large'}}"></a>
+                 <div class="txt-cont">
+                  <h3><a href="{{section.settings.product-1.url}}">{{section.settings.product-1.title}}</a></h3>
+
+                  {% assign product1 = section.settings.product-1 %}
+
+                    {% for value1 in product1.options_with_values %}
+                      <p class="variant-name">{{ value1.name }}</p>
+
+                        {% for x1 in value1.values %}
+                          <span class="variant-value">{{x1}}</span>
+                        {% endfor %}
+
+                    {% endfor %}
+                   
+                   <h3 class="pricee">{{section.settings.product-1.price | money }}</h3>
+                </div>
+
+              </div>
+            
+              <div class="prodd product-1">
+                <a href="{{section.settings.product-2.url}}"><img src="{{section.settings.product-2.featured_image | img_url: 'large'}}"></a>
+                
+                <div class="txt-cont">
+                  <h3><a href="{{section.settings.product-2.url}}">{{section.settings.product-2.title}}</a></h3>
+
+                  {% assign product2 = section.settings.product-2 %}
+
+                    {% for value2 in product2.options_with_values %}
+                      <p class="variant-name">{{ value2.name }}</p>
+
+                        {% for x2 in value2.values %}
+                          <span class="variant-value">{{x2}}</span>
+                        {% endfor %}
+
+                    {% endfor %}
+                  
+                  <h3 class="pricee">{{section.settings.product-2.price | money }}</h3>
+                </div>
+                  
+              </div>
+          </div>
+          
+          <div class="twowrap">
+              <div class="prodd product-1">
+                <a href="{{section.settings.product-3.url}}"><img src="{{section.settings.product-3.featured_image | img_url: 'large'}}"></a>
+                 <div class="txt-cont">
+                  <h3><a href="{{section.settings.product-3.url}}">{{section.settings.product-3.title}}</a></h3>
+
+                  {% assign product3 = section.settings.product-3 %}
+
+                    {% for value3 in product3.options_with_values %}
+                      <p class="variant-name">{{ value3.name }}</p>
+
+                        {% for x3 in value3.values %}
+                          <span class="variant-value">{{x3}}</span>
+                        {% endfor %}
+
+                    {% endfor %}
+                   
+                   <h3 class="pricee">{{section.settings.product-3.price | money }}</h3>
+                </div>
+
+              </div>
+            
+              <div class="prodd product-1">
+                <a href="{{section.settings.product-4.url}}"><img src="{{section.settings.product-4.featured_image | img_url: 'large'}}"></a>
+                
+                <div class="txt-cont">
+                  <h3><a href="{{section.settings.product-4.url}}">{{section.settings.product-4.title}}</a></h3>
+
+                  {% assign product4 = section.settings.product-4 %}
+
+                    {% for value4 in product4.options_with_values %}
+                      <p class="variant-name">{{ value4.name }}</p>
+
+                        {% for x4 in value4.values %}
+                          <span class="variant-value">{{x4}}</span>
+                        {% endfor %}
+
+                    {% endfor %}
+                  
+                  <h3 class="pricee">{{section.settings.product-4.price | money }}</h3>
+                </div>
+                  
+              </div>
+          </div>
+          
+        </div>
+      
+      
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Image four Products",
+    "class": "image-four-products",
+    "settings": [
+		{
+          "id": "banner",
+          "type": "image_picker",
+          "label": "Banner" 
+		},
+		{
+          "id": "textlink",
+          "type": "text",
+          "label": "Link of banner" 
+		},
+		{
+          "id": "product-1",
+          "type": "product",
+          "label": "Product #1" 
+		},
+		{
+          "id": "product-2",
+          "type": "product",
+          "label": "Product #2" 
+		},
+		{
+          "id": "product-3",
+          "type": "product",
+          "label": "Product #3" 
+		},
+		{
+          "id": "product-4",
+          "type": "product",
+          "label": "Product #4" 
+		}
+
+	],
+    "presets": [{
+      "name": "Image four Products",
+      "category": "Collection"
+    }]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

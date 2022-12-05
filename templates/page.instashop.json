@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1657286567863f2879": {
+      "type": "advanced-content",
+      "blocks": {
+        "16572865674012f562-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>InstaShop<\/h2>\n<p class=\"text-center\">Click an image to shop products<\/p>\n<br>\n<script async src='https:\/\/snapppt.com\/widgets\/widget_loader\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24\/sauce_as_seen_on.js' class='snapppt-widget'><\/script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16572865674012f562-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657286567863f2879"
+  ]
+}
