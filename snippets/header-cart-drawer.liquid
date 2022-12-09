@@ -1,7 +1,6 @@
 <form action="{{ routes.cart_url }}" method="post" novalidate data-location="header" class="cart__drawer-form">
   <div class="cart__scrollable">
-    <div data-products></div>
-    {%- render 'cart-recommendations', location: 'drawer' -%}
+    <div data-products></div>    
 
     {% if settings.cart_notes_enable %}
       <div class="cart__item-row">
@@ -19,6 +18,8 @@
       </div>
     {% endif %}
   </div>
+
+  {%- render 'cart-recommendations', location: 'drawer' -%}
 
   <div class="cart__footer">
     <div class="cart__item-sub cart__item-row cart__item--subtotal">

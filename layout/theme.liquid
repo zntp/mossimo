@@ -43,6 +43,7 @@
   {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
+  {{ 'custom-styles.scss.css' | asset_url | stylesheet_tag: preload: true }}
 
   {%- liquid
     assign enableSuperScript = false

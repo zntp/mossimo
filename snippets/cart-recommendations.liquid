@@ -8,6 +8,9 @@
 
 {%- if cart_collection != blank -%}
   <div class="cart__item-row cart-recommendations" data-location="{{ location }}">
+    <div class="cart__open-close--toggle">
+      <span class="tmenu_indicator"><span class="tmenu_indicator_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path></svg></span></span>
+    </div>
     <div class="h3 h3--mobile cart__recommended-title">{{ 'cart.general.recommended_title' | t }}</div>
     <div class="new-grid product-grid{% if mobileScrollOnly %} scrollable-grid--small{% else %} scrollable-grid{% endif %}" data-view="small">
       {%- liquid
@@ -20,5 +23,17 @@
         endfor
       -%}
     </div>
+    <script>
+      let drawerToggle = document.querySelector('.cart__open-close--toggle');
+      let drawerToggle2 = document.querySelector('.cart__recommended-title');
+      let cartRecommendation = document.querySelector('.cart-recommendations');
+      [drawerToggle,drawerToggle2].forEach(function(element) {
+        element.addEventListener("click", function(){
+          cartRecommendation.classList.toggle('inactive');
+        });
+      });
+    </script>
   </div>
+
+  
 {%- endif -%}
