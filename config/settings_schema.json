@@ -1146,7 +1146,24 @@
         "type": "checkbox",
         "id": "show_breadcrumbs_collection_link",
         "label": "t:settings_schema.extras.settings.show_breadcrumbs_collection_link.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_rotating_announcements",
+        "label": "t:settings_schema.extras.settings.show_rotating_announcements.label"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.shop_the_look.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "stl",
+        "label": "t:settings_schema.shop_the_look.settings.stl.label",
+        "default": false
       }
     ]
   }
 ]
+

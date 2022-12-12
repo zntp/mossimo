@@ -1,0 +1,9 @@
+{% if request.page_type == 'collection' %}
+<div>
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <span data-id="{{ variant.id }}">{{ variant.option1 }}</span>
+      {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

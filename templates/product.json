@@ -195,7 +195,7 @@
         "16571196149047062f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"snpt-wdgt--ppg\">\n\n<h3>Show your style with @wearmossimo<\/h3>\n\n\n<script async src=\"https:\/\/snapppt.com\/widgets\/ppg\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24\" class=\"snapppt-widget\" importance=\"high\"><\/script>\n<\/div>",
+            "code": "<div class=\"snpt-wdgt--ppg\">\n<h3>Show your style with @wearmossimo<\/h3>\n<script async src=\"https:\/\/snapppt.com\/widgets\/ppg\/cd2c1340-8163-4ed2-848f-92ce9a1f2f24\" class=\"snapppt-widget\" importance=\"high\"><\/script>\n<\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -215,9 +215,10 @@
       "blocks": {
         "16558240717d15e355-1": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
-            "code": "<h2> Shop the look <\/h2>\n<!-- Sauce Shop The Look embed -->\n<script async=\"\" src=\"https:\/\/snapppt.com\/widgets\/picture-card\/663a9058-d11f-f0b5-13a2-f83133b5fa3e?w=full\" class=\"snapppt-widget\"><\/script>\n<!-- End - Sauce Shop The Look embed -->\n\n<style>\n.snapppt-widget {align-items: center;}\n<\/style>",
-            "width": "50%",
+            "code": "{% if settings.stl %}\n{{ product.metafields.custom.shop_the_look_code }}\n<\/div>\n<style>\n.snapppt-widget {align-items: center;}\n<\/style>\n{% endif %}",
+            "width": "100%",
             "alignment": "center"
           }
         }
@@ -226,7 +227,7 @@
         "16558240717d15e355-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "space_around": true
       }
     },
@@ -236,8 +237,8 @@
         "165874642405e86329-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if product.metafields.custom.shop_the_look_code != blank %}\n{{product.metafields.custom.shop_the_look_code}}\n{% else %}\n\n{% endif %}",
-            "width": "50%",
+            "code": "{% if settings.stl %}\n{% if product.metafields.custom.shop_the_look_code != blank %}\n<div class=\"shop-the-look\">\n<h3>Shop the look<\/h3>\n{{product.metafields.custom.shop_the_look_code}}\n<\/div>\n{% endif %}\n{% endif %}",
+            "width": "100%",
             "alignment": "top-middle"
           }
         }

@@ -70,6 +70,8 @@
     "favicon": "shopify:\/\/shop_images\/m.png",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
+    "show_rotating_announcements": false,
+    "stl": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -202,9 +204,9 @@
         "settings": {
           "announcement_center": true,
           "toolbar_social": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false
         }
       },
       "footer": {

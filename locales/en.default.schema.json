@@ -3094,6 +3094,17 @@
         },
         "show_breadcrumbs_collection_link": {
           "label": "Show collections page in breadcrumb list"
+        },
+        "show_rotating_announcements": {
+          "label": "Show top bar rotating texts"
+        }
+      }
+    },
+    "shop_the_look": {
+      "name": "Shop The Look",
+      "settings": {
+        "stl" : {
+          "label": "Enable shop the look"
         }
       }
     }

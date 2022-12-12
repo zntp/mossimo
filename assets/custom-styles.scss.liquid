@@ -190,7 +190,9 @@ html.cart-open body {
         }
 
         @media (max-width:767px) {
-            .grid-product__price--savings,
+            .grid-product__price--savings {
+                display:none;
+            }
             
             .qview-button.qview-button--mobile-bottom_right {
                 right: 3px;
@@ -284,3 +286,95 @@ html.cart-open body {
 }
 
 
+/* SHOP THE LOOK */
+
+.shop-the-look {
+    text-align: center;
+    
+    .snptwdgt-container.snpt_widget--picture_card {
+        max-width: unset;
+        width: 100%;
+    }
+
+    .snpt-pict-item {
+        margin: 0 auto !important;
+    }
+
+    .snpt-pict-item>.snpt-pict-item_liner {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .snpt-pct-crd-imgs,
+        .pct-crd__deets {
+            width: 50%;
+        }
+
+        .pct-crd__deets-full {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .hotspot-info {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            padding: 0 25% 0 0;
+            width: 100%;
+            position: relative;
+
+            &:before {
+                background-color: var(--colorTextBody);
+                content: "";
+                display: block;
+                height: 2px;
+                right: 30px;
+                position: absolute;
+                width: 15px;
+                transition: left .1s;
+            }
+
+            &:after {
+                border-color: var(--colorTextBody);
+                border-style: solid;
+                border-width: 0 0 2px 2px;
+                content: "";
+                display: block;
+                height: 8px;
+                right: 30px;
+                position: absolute;
+                width: 8px;
+                margin-top: -4px;
+                top: 50%;
+                transition: left .1s;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(225deg);
+            }            
+
+            .snpt__fauximg {
+                width: 140px;
+            }
+
+            .deets-thumb-caption {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 1rem;
+            }
+            
+            .crd-num {
+                display: none;
+            }
+            .crd-blurb {
+                font-family: var(--typeBasePrimary);
+                font-size: calc(var(--typeBaseSize) - 1px);
+                height: auto;
+            }
+            .crd-price {
+                color: var(--colorTextBody);
+            }
+            
+        }
+    }
+}
