@@ -1,9 +1,28 @@
-{% if request.page_type == 'collection' %}
-<div>
-    {% for variant in product.variants %}
-      {% if variant.available %}
-        <span data-id="{{ variant.id }}">{{ variant.option1 }}</span>
+<div class="size-variants">
+  {%- liquid
+    assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
+  -%}
+  {%- for option in product.options_with_values -%}
+    {%- assign option_index = forloop.index -%}
+    {%- liquid
+      assign option_name = option.name | downcase
+      assign is_color = false
+      if option_name contains swatch_trigger
+        assign is_color = true
+      elsif swatch_trigger == 'color' and option_name contains 'colour'
+        assign is_color = true
+      endif
+    -%}
+    {% if is_color %}
+      {% else %}
+        <div class="sizeunorfer" >
+      {%- for value in option.values -%}
+        <div data-index="{{ option_index }}" class="size-swatch" data-title="{{ value }}" ><span>{{ value }}</span></div>
+      {%- endfor -%}
+        </div>
       {% endif %}
-    {% endfor %}
+  {%- endfor -%}
 </div>
-{% endif %}
+<div class="addtocartGrid hide">
+  <a href="#"> Add to Cart </a>
+</div>

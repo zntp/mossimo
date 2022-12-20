@@ -189,6 +189,9 @@
     </a>
 
       <div class="grid-item__meta">
+        <script class="variantjsonInfo">
+        {{product.variants | json}}
+        </script>
         <div class="grid-item__meta-main">
           {%- if settings.enable_swatches -%}
             {%- liquid
@@ -225,8 +228,8 @@
                       -%}
 
                       {%- if color_count <= max_colors_show -%}
-                        <span
-                          class="color-swatch color-swatch--small color-swatch--{{ value | handle }}{% if variant.image %} color-swatch--with-image{% endif %}"
+                        <span data-index="{{ option_index | plus:1 }}"
+                          class="color-swatch color-swatch--small color-swatch--{{ value | handle }} sw-{{color_count }}{% if variant.image %} color-swatch--with-image {% else %}{% if forloop.first %}is-active{% endif %}{% endif %} {% if variant.featured_media.id == product.featured_media.id  %} is-active {% endif %}"
                           data-url="{{ variant.url | within: collection }}"
                           {% if variant.image %}
                             data-variant-id="{{ variant.id }}"
@@ -315,7 +318,8 @@
       </div>
 
     {% comment %} product card sizes {% endcomment %}
-      {% render 'product-card-sizes' %}      
+      {% render 'product-card-sizes',product:product %}      
+  
     {% comment %} end product card sizes {% endcomment %}
 	
   </div>

@@ -11677,3 +11677,78 @@ h2, .h3.section-header__title, .type-banner p, strong, h1.section-header__title,
 .additional-checkout-buttons {
   display: none !important;
 }
+/* custom css  */
+.size-variants {
+    padding: 0px 0px;
+    border: 1px solid #dad8d8;
+    background-image: linear-gradient(to right,white,white),linear-gradient(to left,white,white),linear-gradient(to right,rgba(218,216,215,.5),rgba(255,255,255,0)),linear-gradient(to left,rgba(218,216,215,.5),rgba(255,255,255,0));
+    background-position: left center,left center,left center,right center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 20px 36px,20px 36px,15px 36px,15px 36px;
+    background-attachment: local,local,scroll,scroll;
+    position:relative;
+}
+.sizeunorfer {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    overflow-x: auto;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.size-variants .sizeunorfer div {
+    min-width: 40px;
+    text-align: center;
+    cursor:pointer;
+    margin: 0;
+}
+.size-swatch span {
+    display: block;
+    margin: 6px 0;
+    border-left: 1px solid #dad8d8;
+}
+.size-variants .sizeunorfer div:first-child{
+  border-left:0;
+}
+.size-swatch:hover{
+  background-color:#000;
+  color:#fff;
+}
+.size-swatch.not-available {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+.product-adding:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 24 24' width='24px' height='24px'%3E%3Cpath d='M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.addtocartGrid a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+.cart__drawer-form .size-variants {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+  .collection-grid .grid-product{
+  max-width:50%;
+  }
+  .size-swatch:hover {
+    background-color: initial;
+    color: inherit;
+}
+}
