@@ -1155,6 +1155,32 @@
     ]
   },
   {
+    "name": "t:settings_schema.rotating_announcement.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "sra",
+        "label": "t:settings_schema.rotating_announcement.settings.sra.label",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "sra_1",
+        "label": "t:settings_schema.rotating_announcement.settings.sra_1.label"
+      },
+      {
+        "type": "text",
+        "id": "sra_2",
+        "label": "t:settings_schema.rotating_announcement.settings.sra_2.label"
+      },
+      {
+        "type": "text",
+        "id": "sra_3",
+        "label": "t:settings_schema.rotating_announcement.settings.sra_3.label"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.shop_the_look.name",
     "settings": [
       {

@@ -3100,6 +3100,23 @@
         }
       }
     },
+    "rotating_announcement": {
+      "name": "Rotating announcement",
+      "settings": {
+        "sra" : {
+          "label": "Enable scrolling announcement"
+        },
+        "sra_1" : {
+          "label": "Announcement #1"
+        },
+        "sra_2" : {
+          "label": "Announcement #2"
+        },
+        "sra_3" : {
+          "label": "Announcement #3"
+        }
+      }
+    },
     "shop_the_look": {
       "name": "Shop The Look",
       "settings": {

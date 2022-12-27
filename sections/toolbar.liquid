@@ -44,6 +44,44 @@
   </div>
 </div>
 
+{% if settings.sra %}  
+  {% comment %} <marquee class="marquee" behavior="scroll" direction="left">
+    {% if settings.sra_1 %}
+      <span class="marquee_text">{{ settings.sra_1 }}</span>
+    {% endif %}
+    {% if settings.sra_2 %}
+      <span class="marquee_text">{{ settings.sra_2 }}</span>
+    {% endif %}
+    {% if settings.sra_3 %}
+      <span class="marquee_text">{{ settings.sra_3 }}</span>
+    {% endif %}
+  </marquee> {% endcomment %}
+  <div class="scrolling-text-container">
+      <div class="scrolling-text">
+        {% if settings.sra_1 %}
+          <span class="marquee_text">{{ settings.sra_1 }}</span>
+        {% endif %}
+        {% if settings.sra_2 %}
+          <span class="marquee_text">{{ settings.sra_2 }}</span>
+        {% endif %}
+        {% if settings.sra_3 %}
+          <span class="marquee_text">{{ settings.sra_3 }}</span>
+        {% endif %}
+      </div>
+      <div class="scrolling-text secondary-text">
+        {% if settings.sra_1 %}
+          <span class="marquee_text">{{ settings.sra_1 }}</span>
+        {% endif %}
+        {% if settings.sra_2 %}
+          <span class="marquee_text">{{ settings.sra_2 }}</span>
+        {% endif %}
+        {% if settings.sra_3 %}
+          <span class="marquee_text">{{ settings.sra_3 }}</span>
+        {% endif %}
+      </div>
+  </div>
+{% endif %}
+
 {% schema %}
 {
   "name": "t:sections.toolbar.name",
